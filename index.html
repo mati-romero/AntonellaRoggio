@@ -13,17 +13,24 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+
+	<div id="Btn-menu" class="btn-menu">
+		<a class="volver-arriba" href="#">
+        	<i class="fas fa-angle-up"></i>
+      	</a>
+	</div>
+
 	<header>
 		<div class="container">
 			<div class="row justify-content-lg-between justify-content-center py-3 align-items-center">
 				<div class="col col-auto order-2 order-lg-1">
 					<ul class="nav">
 						<li class="nav-item">
-							<a href="#" class="nav-link active">Sobre mí</a>
+							<a href="#Sobre-mi" class="nav-link active scroll-suave">Sobre mí</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="#" class="nav-link">Educación</a>
+							<a href="#Educacion" class="nav-link scroll-suave">Educación</a>
 						</li>
 
 					</ul>
@@ -36,11 +43,11 @@
 				<div class="col col-auto order-3">
 					<ul class="nav">
 						<li class="nav-item">
-							<a href="#" class="nav-link">Portafolio</a>
+							<a href="#Portafolio" class="nav-link scroll-suave">Portafolio</a>
 						</li>
 
 						<li class="nav-item">
-							<a href="#" class="nav-link">Contacto</a>
+							<a href="#Contacto" class="nav-link scroll-suave">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -84,7 +91,7 @@
 				</div>
 			</section>
 
-			<section class="Sobre-mi my-5 p-5 bg-img">
+			<section id="Sobre-mi" class="Sobre-mi my-5 p-5 bg-img">
 				<div class="row justify-content-between align-items-center">
 					<div class="col-12 col-lg-6 order-1 order-lg-0">
 
@@ -117,7 +124,7 @@
 				</div>
 			</section>
 
-			<section class="educacion my-5 border-bottom">
+			<section id="Educacion" class="educacion my-5 border-bottom">
 				<h2 class="display-4 display-lg-2 ">Educación</h2>
 
 				<div class="estudios row my-5">
@@ -430,7 +437,7 @@
 				</div>
 			</section>
 
-			<section class="portafolio my-5">
+			<section id="Portafolio" class="portafolio my-5">
 				<h2 class="display-4 display-lg-2">Portafolio</h2>
 
 				<ul class="nav nav-tabs justify-content-center my-5">
@@ -498,6 +505,14 @@
 							<div class="card rounded-circle">
 								<img class="card-img-top" src="img/moda0 (5).jpg" alt="Card image cap">
 							</div>
+							
+							<div class="card rounded-circle">
+								<img class="card-img-top" src="img/moda0 (6).jpg" alt="Card image cap">
+							</div>
+
+							<div class="card rounded-circle">
+								<img class="card-img-top" src="img/moda0 (7).jpg" alt="Card image cap">
+							</div>
 						</div>
 					</div>
 					
@@ -553,7 +568,7 @@
 		</div>
 	</section>
 
-	<section class="contacto mt-6">
+	<section id="Contacto" class="contacto mt-6">
 		<div class="container">
 			<div class="row py-5 align-items-center">
 				<div class="col-6 d-none d-md-block text-center">
@@ -594,16 +609,13 @@
 				<div class="col-6 pt-5 border-right border-white d-none d-md-block">
 					<ul class="nav flex-column">
 						<li class="nav-item">
-							<a class="nav-link" href="#">Sobre mí</a>
+							<a class="nav-link scroll-suave" href="#Sobre-mi"> <span class="badge"><i class="fas fa-user"></i></span> Sobre mí</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Educación</a>
+							<a class="nav-link scroll-suave" href="#Educacion"> <span class="badge"><i class="fas fa-graduation-cap"></i></span> Educación</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Portafolio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contacto</a>
+							<a class="nav-link scroll-suave" href="#Portafolio"> <span class="badge"><i class="fas fa-folder"></i></span> Portafolio</a>
 						</li>
 					</ul>
 				</div>
@@ -621,6 +633,7 @@
 
 	<script src="js/jquery-3.6.0.min.js"></script>
 	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scroll-suave.js"></script>
 </body>
 </html>
