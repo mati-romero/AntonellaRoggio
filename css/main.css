@@ -1,0 +1,90 @@
+/* Generales */
+
+body {
+	color: rgb(34,34,32);
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 50px;
+	color: rgb(34,34,32);
+}
+
+h2 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 20px;
+}
+
+a {
+	color: rgb(34,34,32);
+	font-family: 'Poppins', sans-serif;
+}
+
+a:hover {
+	color: rgb(229,199,189);
+}
+
+footer {
+	background: rgb(34,34,32);
+}
+
+footer a {
+	color: #FFF;
+}
+
+.progresos {
+	margin: 100px 0;
+}
+
+.sombra-1 {
+	box-shadow: 24px -24px 0px 3px rgb(229,199,189);
+}
+
+.sombra-2 {
+	box-shadow: -24px 24px 0px 3px rgb(229,199,189);
+}
+
+.bg-pink {
+	background: rgb(229,199,189);
+}
+
+.bg-pink-2 {
+	background: rgb(242,227,222);
+}
+
+.bg-brown {
+	background: rgb(213,195,181);
+}
+
+.bg-black {
+	background: rgb(34,34,32);
+}
+
+.boton {
+	padding: 10px;
+	background: rgb(229,199,189);
+	color: rgb(34,34,32);
+}
+
+.boton:hover {
+	border: 1px solid rgb(34,34,32);
+	color: rgb(34,34,32);
+}
+
+.mt-6 {
+	margin-top: 100px;
+}
+
+.redes a {
+	font-size: 30px;
+}
+
+.contacto {
+	background: rgb(242,227,222);
+}
