@@ -88,6 +88,10 @@ footer a {
 	background: rgb(34,34,32);
 }
 
+.bg-old-pink {
+	background: rgb(247,231,216);
+}
+
 .boton {
 	padding: 10px;
 	background: rgb(229,199,189);
