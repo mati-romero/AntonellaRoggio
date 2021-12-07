@@ -622,21 +622,25 @@
 
 					<h2 class="display-4 display-lg-2 mb-4">Contact me! <br>Let’s work together</h2>
 
-					<form action="php/contacto.php" method="POST">
+					<form id="formulario" >
 						<div class="form-group">
-							<input class="form-control" type="text" name="nombre" placeholder="Name">
+							<input class="form-control" type="text" name="nombre" id="nombre" placeholder="Name">
+							<p class="error">Don't forget to put your name</p>
 						</div>
 
 						<div class="form-group">
-							<input type="email" class="form-control" name="email" placeholder="E-mail">
+							<input type="email" class="form-control" name="email" id="email" placeholder="E-mail">
+							<p class="error">Don't forget to put your E-mail</p>
 						</div>
 
 						<div class="form-group">
-							<input class="form-control" type="text" name="asunto" placeholder="Subject">
+							<input class="form-control" type="text" name="asunto" id="asunto" placeholder="Subject">
+							<p class="error">Don't forget to put your subject</p>
 						</div>
 
 						<div class="form-group">
-							<textarea class="form-control" name="mensaje" rows="3"></textarea>
+							<textarea class="form-control" name="mensaje" rows="3" id="mensaje" placeholder="message"></textarea>
+							<p class="error">Don't forget to put your message</p>
 						</div>
 
 						<button type="submit" class="btn boton">Send</button>
@@ -677,5 +681,6 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scroll-suave.js"></script>
+	<script src="js/validacion.js"></script>	
 </body>
 </html>

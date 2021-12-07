@@ -114,3 +114,8 @@ footer a {
 .contacto {
 	background: rgb(242,227,222);
 }
+
+.error {
+	color: red;
+	display: none;
+}
